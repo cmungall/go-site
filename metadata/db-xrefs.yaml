@@ -259,8 +259,8 @@
   generic_urls:
     - http://www.cazy.org/
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: protein family
+      type_id: NCIT:C20130
       id_syntax: (CE|GH|GT|PL)\d+
       url_syntax: http://www.cazy.org/[example_id].html
       example_id: CAZY:PL11
@@ -421,8 +421,8 @@
   generic_urls:
     - http://www.ncbi.nlm.nih.gov/projects/SNP
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: SNP
+      type_id: SO:0000694
       id_syntax: \d+
       url_syntax: http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=[example_id]
       example_id: dbSNP:rs3131969
@@ -494,8 +494,8 @@
   generic_urls:
     - http://dx.doi.org/
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: information content entity
+      type_id: IAO:0000030
       id_syntax: 10\.[0-9]+\/.*
       url_syntax: http://dx.doi.org/DOI:[example_id]
       example_id: DOI:10.1016/S0963-9969(99)00021-6
@@ -612,7 +612,7 @@
     - http://www.ebi.ac.uk/ena/
   entity_types:
     - type_name: entity
-      type_id: BET:0000000
+      type_id: SO:0000143
       id_syntax: ([A-Z]{1}[0-9]{5})|([A-Z]{2}[0-9]{6})|([A-Z]{4}[0-9]{8,9})
       url_syntax: http://www.ebi.ac.uk/ena/data/view/[example_id]
       example_id: ENA:AA816246
@@ -872,8 +872,8 @@
   generic_urls:
     - http://www.geneontology.org/
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: information content entity
+      type_id: IAO:0000030
       id_syntax: \d{7}
       url_syntax: http://www.geneontology.org/cgi-bin/references.cgi#GO_REF:[example_id]
       example_id: GO_REF:0000001
@@ -1261,8 +1261,8 @@
   generic_urls:
     - http://www.genome.jp/dbget-bin/www_bfind?enzyme
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: protein
+      type_id: PR:000000001
       id_syntax: \d(\.\d{1,2}){2}\.\d{1,3}
       url_syntax: http://www.genome.jp/dbget-bin/www_bget?ec:[example_id]
       example_id: KEGG_ENZYME:2.1.1.4
@@ -1283,8 +1283,8 @@
   generic_urls:
     - http://www.genome.jp/kegg/pathway.html
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: biological_process
+      type_id: GO:0008150
       url_syntax: http://www.genome.jp/dbget-bin/www_bget?path:[example_id]
       example_id: KEGG_PATHWAY:ot00020
       example_url: http://www.genome.jp/dbget-bin/www_bget?path:ot00020
@@ -1294,7 +1294,7 @@
     - http://www.genome.jp/kegg/reaction/
   entity_types:
     - type_name: entity
-      type_id: BET:0000000
+      type_id: GO:0003824
       id_syntax: R\d+
       url_syntax: http://www.genome.jp/dbget-bin/www_bget?rn:[example_id]
       example_id: KEGG:R02328
@@ -1317,7 +1317,7 @@
     - http://bioinformatics.ustc.edu.cn/locsvmpsi/locsvmpsi.php
   entity_types:
     - type_name: entity
-      type_id: BET:0000000
+      type_id: GO:0005575
 - database: MA
   name: Adult Mouse Anatomical Dictionary
   description: Adult Mouse Anatomical Dictionary; part of Gene Expression Database
@@ -1817,8 +1817,8 @@
   generic_urls:
     - http://www.ncbi.nlm.nih.gov/PubMed/
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: publication
+      type_id: IAO:0000311
       id_syntax: "[0-9]+"
       url_syntax: http://www.ncbi.nlm.nih.gov/pubmed/[example_id]
       example_id: PMID:4208797
@@ -2031,8 +2031,8 @@
   generic_urls:
     - http://www.reactome.org/
   entity_types:
-    - type_name: entity
-      type_id: BET:0000000
+    - type_name: process
+      type_id: BFO:0000015
       id_syntax: REACT_[0-9]+
       url_syntax: http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=[example_id]
       example_id: Reactome:REACT_604
